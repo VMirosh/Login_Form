@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(66,133,244,23);
+  position: relative;
+}
+  .login-form{
+  
+    max-width: 30%;
+    /* height: 400px; */
+    margin: auto;
+    padding: 5%;
+    /* position: absolute; */
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 4%;
+  }
+  .login-form .form-title{
+   
+    color: rgb(83,144,245);
+    font-size: 22px;
+
+  }
+  .login-form .form-title h2{
+    margin-top: 0;
+  }
+  .login-form .form-grop{
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  }
+  .login-form .form-footer{
+    display: flex;
+
+ }
+ 
+ .login-form .form-grop input{
+   background-color: #e5e5e5;
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   color: #3e3d3d;
+   font-size: 18px;
+   box-sizing: border-box;
+ }
+ .login-form .form-grop label{
+  box-sizing: border-box;
+  display: block;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+   
+ }
+ .login-form .form-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  margin: 10px 0;
+
+}
+.login-form .form-footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3e3d3d;
+
+   
+}
+.login-form .form-footer div a{
+  text-decoration: none;
+}
+
+
+.login-form .button{
+  width: 100%;
+    color: white;
+    letter-spacing: 0.2em;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+background-color: rgb(83,144,245);
+text-transform: uppercase;
+}
