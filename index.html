@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
   <link rel="stylesheet" href="style.css">
-  
-</head>
-<body>  
 
-  <form name="login-form" class="login-form" >
+
+</head>
+
+<body>
+
+  <form name="loginForm" class="login-form">
     <div class="form-title">
       <h2>account login</h2>
     </div>
@@ -23,50 +26,58 @@
       <input type="password" name="password" id="password" required minlength="6" maxlength="16">
     </div>
     <div class="form-footer">
-      <div >
+      <div>
         <input type="checkbox" name="remember-me" id="remember-me" required>
         <label for="remember-me">Remember Me</label>
       </div>
       <div>
-      <a href="#">Forgot Password?</a>
+        <a href="#">Forgot Password?</a>
+      </div>
     </div>
+    <div class="button">
+      <input type="submit" class="button" value="log in">
     </div>
-    <input type="submit" class="button" value="log in">
+    <div class="sign-up">
+      <p>Don't have an account? <a href="#"> Sign up</a> </p>
+    </div>
   </form>
 
 
-  <!-- <form name="form-greate-account" class="form-greate"></form>
-  <div class="form-title">
-    <h2>register account</h2>
-    <button>X</button>
-  </div>
-  <div class="form-grop">
-    <label for="username">username</label>
-  <input type="text" id="username" required>
-</div>
-  <div class="form-grop">
-    <label for="password">password</label>
-  <input type="password" name="password" id="password" required minlength="6" maxlength="16">
-</div>
-  <div class="form-grop"> 
-    <label for="confirm-password">confirm password</label>
-  <input type="password" name="confirm-password" id="confirm-password" required minlength="6" maxlength="16">
-</div>
-  <div class="form-grop"> 
-    <label for="email">email address</label>
-  <input type="email" name="email" id="email" required>
-</div>
-  <input type="submit" value="register"> -->
-
-  <!-- <form name="remember-password-form" class="remember-form" >
+  <form name="formCreateAccount" class="form-create">
     <div class="form-title">
-      <h2>remember password</h2>
+      <h2>register account</h2>
+      <div class="close-create-form">X</div>
+    </div>
+    <div class="form-grop">
+      <label for="username">username</label>
+      <input type="text" id="username" required>
+    </div>
+    <div class="form-grop">
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" required minlength="6" maxlength="16">
+    </div>
+    <div class="form-grop">
+      <label for="confirm-password">confirm password</label>
+      <input type="password" name="confirm-password" id="confirm-password" required minlength="6" maxlength="16">
+    </div>
+    <div class="form-grop">
+      <label for="email">email address</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <input type="submit" class="button" value="register">
+  </form>
+
+  <form name="rememberPasswordForm" class="remember-form">
+    <div class="form-title">
+      <h2>Password recovery</h2>
+      <div class="close-remember-form">X</div>
     </div>
     <div class="form-grop">
       <label for="email">email</label>
-      <input type="email" id="email" required >
+      <input type="email" id="email" required>
     </div>
-    <input type="submit" value="Push"> -->
-      
+    <input type="submit" class="button" value="Push">
+
 </body>
+
 </html>

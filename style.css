@@ -1,42 +1,45 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
 
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: rgba(66,133,244,23);
-  position: relative;
-}
-  .login-form{
-  
-    max-width: 30%;
-    /* height: 400px; */
-    margin: auto;
-    padding: 5%;
-    /* position: absolute; */
-    background-color: white;
-    text-transform: uppercase;
-    border-radius: 4%;
-  }
-  .login-form .form-title{
-   
-    color: rgb(83,144,245);
-    font-size: 22px;
+ body {
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(66 233 244 / 0.57);
+   position: relative;
+ }
 
-  }
-  .login-form .form-title h2{
-    margin-top: 0;
-  }
-  .login-form .form-grop{
-  margin: 5px 0px;
-  display: flex;
-  flex-direction: column;
-  }
-  .login-form .form-footer{
-    display: flex;
+ .login-form {
+   margin: 5% auto;
+   box-sizing: border-box;
+   border-radius: 4%;
+   width: 600px;
+   padding: 5%;
+   background-color: white;
+   text-transform: uppercase;
+   /* display: none; */
+ }
+
+ .login-form .form-title {
+   color: rgb(83, 144, 245);
+   font-size: 22px;
 
  }
- 
- .login-form .form-grop input{
+
+ .login-form .form-title h2 {
+   margin-top: 0;
+ }
+
+ .login-form .form-grop {
+   margin: 5px 0px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .login-form .form-footer {
+   display: flex;
+
+ }
+
+ .login-form .form-grop input {
    background-color: #e5e5e5;
    padding: 3%;
    border: none;
@@ -45,49 +48,222 @@ body{
    font-size: 18px;
    box-sizing: border-box;
  }
- .login-form .form-grop label{
-  box-sizing: border-box;
-  display: block;
-  margin: 10px 0;
-  color: rgba(0, 0, 0, 0.6);
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-   
+
+ .login-form .form-grop label {
+   box-sizing: border-box;
+   display: block;
+   margin: 10px 0;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+
  }
- .login-form .form-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 2%;
-  font-size: 12px;
-  letter-spacing: 0.2em;
-  margin: 10px 0;
 
-}
-.login-form .form-footer div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #3e3d3d;
+ .form-footer {
+   display: flex;
+   justify-content: space-between;
+   padding: 2%;
+   font-size: 12px;
+   letter-spacing: 0.2em;
+   margin: 10px 0;
 
-   
-}
-.login-form .form-footer div a{
-  text-decoration: none;
-}
+ }
+
+ .login-form .form-footer div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #3e3d3d;
+
+ }
+
+ .login-form .form-footer div a {
+   text-decoration: none;
+ }
+
+ .login-form .button input {
+   width: 100%;
+   color: white;
+   letter-spacing: 0.2em;
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   box-sizing: border-box;
+   background-color: rgb(83, 144, 245);
+   text-transform: uppercase;
+ }
+
+ .login-form .sign-up {
+   display: flex;
+   justify-content: center;
+   padding-top: 5%;
+   font-size: 12px;
+   letter-spacing: 0.2em;
+ }
+
+ .login-form .sign-up p {
+   margin: 0;
+
+ }
+
+ .login-form .sign-up p a {
+   text-decoration: none;
+ }
 
 
-.login-form .button{
-  width: 100%;
-    color: white;
-    letter-spacing: 0.2em;
-    padding: 3%;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    box-sizing: border-box;
-background-color: rgb(83,144,245);
-text-transform: uppercase;
-}
+ .form-create {
+   margin: 5% auto;
+   box-sizing: border-box;
+   border-radius: 4%;
+   width: 600px;
+   padding: 5%;
+   color: white;
+   text-transform: uppercase;
+   background-color: rgb(83, 144, 245);
+   }
+
+ .form-create .form-title {
+   font-size: 22px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .form-create .form-title h2 {
+   margin-top: 0;
+ }
+
+ .form-create .form-title .close-create-form{
+   color: rgb(83, 144, 245);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: none;
+   background-color: white;
+ }
+
+ .form-create .form-grop {
+   margin: 5px 0px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .form-create .form-grop input {
+   background-color: rgb(59, 119, 219);
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   font-size: 18px;
+   box-sizing: border-box;
+ }
+
+ .form-create .form-grop label {
+   box-sizing: border-box;
+   display: block;
+   margin: 10px 0;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+
+ }
+
+ .form-create .button {
+   width: 100%;
+   color: rgb(83, 144, 245);
+   letter-spacing: 0.2em;
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   margin-top: 6%;
+   box-sizing: border-box;
+   background-color: white;
+   text-transform: uppercase;
+ }
+
+ .remember-form {
+   margin: 5% auto;
+   box-sizing: border-box;
+   border-radius: 4%;
+   width: 600px;
+   padding: 5%;
+   background-color: white;
+   text-transform: uppercase;
+ }
+
+ .remember-form .form-title {
+   color: rgb(83, 144, 245);
+   font-size: 22px;
+   justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+
+ }
+
+ .remember-form .form-title h2 {
+   margin-top: 0;
+ }
+
+ .remember-form .form-title .close-remember-form {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgb(83, 144, 245);
+ }
+
+ .remember-form .form-grop {
+   margin: 5px 0px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .remember-form .form-grop input {
+   background-color: #e5e5e5;
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   color: #3e3d3d;
+   font-size: 18px;
+   box-sizing: border-box;
+ }
+
+ .remember-form .form-grop label {
+   box-sizing: border-box;
+   display: block;
+   margin: 10px 0;
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+
+ }
+
+ .remember-form .button {
+   width: 100%;
+   color: white;
+   letter-spacing: 0.2em;
+   padding: 3%;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   margin-top: 6%;
+   box-sizing: border-box;
+   background-color: rgb(83, 144, 245);
+   text-transform: uppercase;
+ }
