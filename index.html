@@ -13,7 +13,7 @@
 
 <body>
 
-  <form name="loginForm" class="login-form">
+  <form name="loginForm" class="login-form ">
     <div class="form-title">
       <h2>account login</h2>
     </div>
@@ -31,22 +31,22 @@
         <label for="remember-me">Remember Me</label>
       </div>
       <div>
-        <a href="#">Forgot Password?</a>
+        <a href="#" id="forgot-password">Forgot Password?</a>
       </div>
     </div>
     <div class="button">
       <input type="submit" class="button" value="log in">
     </div>
     <div class="sign-up">
-      <p>Don't have an account? <a href="#"> Sign up</a> </p>
+      <p>Don't have an account? <a href="#" id="sign-up"> Sign up</a> </p>
     </div>
   </form>
 
 
-  <form name="formCreateAccount" class="form-create">
+  <form name="formCreateAccount" class="form-create hidden">
     <div class="form-title">
       <h2>register account</h2>
-      <div class="close-create-form">X</div>
+      <div class="close-button">X</div>
     </div>
     <div class="form-grop">
       <label for="username">username</label>
@@ -67,16 +67,17 @@
     <input type="submit" class="button" value="register">
   </form>
 
-  <form name="rememberPasswordForm" class="remember-form">
+  <form name="rememberPasswordForm" class="remember-form hidden">
     <div class="form-title">
       <h2>Password recovery</h2>
-      <div class="close-remember-form">X</div>
+      <div class="close-button">x</div>
     </div>
     <div class="form-grop">
       <label for="email">email</label>
       <input type="email" id="email" required>
     </div>
     <input type="submit" class="button" value="Push">
+    <script src="script.js"></script>
 
 </body>
 

@@ -136,7 +136,7 @@
    margin-top: 0;
  }
 
- .form-create .form-title .close-create-form{
+ .form-create .form-title .close-button{
    color: rgb(83, 144, 245);
    display: flex;
    justify-content: center;
@@ -213,7 +213,7 @@
    margin-top: 0;
  }
 
- .remember-form .form-title .close-remember-form {
+ .remember-form .form-title .close-button {
    color: white;
    display: flex;
    justify-content: center;
@@ -266,4 +266,10 @@
    box-sizing: border-box;
    background-color: rgb(83, 144, 245);
    text-transform: uppercase;
+ }
+  .hidden{
+    display: none;
+  }
+ .visibility{
+  display: block;
  }
