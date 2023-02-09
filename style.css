@@ -48,6 +48,9 @@
    font-size: 18px;
    box-sizing: border-box;
  }
+ .login-form .form-grop input:focus-visible{
+  outline-color: rgb(83, 144, 245);
+ }
 
  .login-form .form-grop label {
    box-sizing: border-box;
@@ -96,6 +99,7 @@
    background-color: rgb(83, 144, 245);
    text-transform: uppercase;
  }
+
 
  .login-form .sign-up {
    display: flex;
@@ -165,6 +169,9 @@
  }
  .form-create .form-grop input:focus-visible{
   outline-color: white;
+ }
+ .form-create .form-grop #email::placeholder{
+  color: rgba(255, 255, 255, 0.726);
  }
 
  .form-create .form-grop label {
@@ -242,6 +249,9 @@
    color: #3e3d3d;
    font-size: 18px;
    box-sizing: border-box;
+ }
+ .remember-form .form-grop input:focus-visible{
+  outline-color: rgb(83, 144, 245);
  }
 
  .remember-form .form-grop label {
