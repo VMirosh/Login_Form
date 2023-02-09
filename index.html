@@ -19,7 +19,7 @@
     </div>
     <div class="form-grop">
       <label for="username">username</label>
-      <input type="text" id="username" required>
+      <input type="text" id="username"  name="username" autofocus required>
     </div>
     <div class="form-grop">
       <label for="password">password</label>
@@ -50,19 +50,19 @@
     </div>
     <div class="form-grop">
       <label for="username">username</label>
-      <input type="text" id="username" required>
+      <input type="text" id="username" name="username" autofocus required>
     </div>
-    <div class="form-grop">
+        <div class="form-grop">
       <label for="password">password</label>
       <input type="password" name="password" id="password" required minlength="6" maxlength="16">
     </div>
     <div class="form-grop">
-      <label for="confirm-password">confirm password</label>
-      <input type="password" name="confirm-password" id="confirm-password" required minlength="6" maxlength="16">
+      <label for="password-confirm">confirm password</label>
+      <input type="password" name="passwordConfirm" id="confirm-password" required minlength="6" maxlength="16">
     </div>
     <div class="form-grop">
       <label for="email">email address</label>
-      <input type="email" name="email" id="email" required>
+      <input type="email" name="email" id="email"  pattern="[a-z0-9._-]+@[a-z0-9-]+\.[a-z]{2,4}" placeholder="name@gmail.com" required>
     </div>
     <input type="submit" class="button" value="register">
   </form>
@@ -74,7 +74,7 @@
     </div>
     <div class="form-grop">
       <label for="email">email</label>
-      <input type="email" id="email" required>
+      <input type="email" id="email"  name="email" pattern="[a-z0-9._-]+@[a-z0-9-]+\.[a-z]{2,4}" placeholder="name@gmail.com" required>
     </div>
     <input type="submit" class="button" value="Push">
     <script src="script.js"></script>
