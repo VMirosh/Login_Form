@@ -154,7 +154,7 @@
    flex-direction: column;
  }
 
- .form-create .form-grop input {
+ .form-create .form-grop input{
    background-color: rgb(59, 119, 219);
    padding: 3%;
    border: none;
@@ -162,6 +162,9 @@
    color: white;
    font-size: 18px;
    box-sizing: border-box;
+ }
+ .form-create .form-grop input:focus-visible{
+  outline-color: white;
  }
 
  .form-create .form-grop label {
